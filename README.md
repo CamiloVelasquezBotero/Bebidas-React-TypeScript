@@ -13,4 +13,4 @@ Buscador de recetas de bebidas en el cual podemos traernos cualquier tipo de beb
   - Usamos LocalHost para mantener y recuperar los datos con el uso de la app.
   - Se hace uso de la libreria (HeadlessUi) para el modal y las notificaciones y (HeroIcons) para los iconos
 
-PREVIEW: 
+PREVIEW: https://bebidas-react-type-script.vercel.app/
