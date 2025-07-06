@@ -12,5 +12,7 @@ Buscador de recetas de bebidas en el cual podemos traernos cualquier tipo de beb
   - Se mejora el performance renderizando componentes especificos al cargar la pagina usando (lazy) y (Suspense)
   - Usamos LocalHost para mantener y recuperar los datos con el uso de la app.
   - Se hace uso de la libreria (HeadlessUi) para el modal y las notificaciones y (HeroIcons) para los iconos
+  - AI, Agregamos Inteligencia Artificial para ayudar crear recetas dependiendo a los ingredientes que se deseen
+  - OpenRouter para comunicarnos con la AI
 
 PREVIEW: https://bebidas-react-type-script.vercel.app/
