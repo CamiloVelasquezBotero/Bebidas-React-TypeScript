@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <header className={isHome ? 'bg-[url(/bg.jpg)] bg-center bg-cover' : 'bg-slate-800'}>
-        <div className="mx-auto container px-5 py-16">
+        <div className="mx-auto container px-5 py-5">
             <div className="flex justify-between items-center">
                 <div>
                     <img 
@@ -55,6 +55,9 @@ export default function Header() {
                     <NavLink to="/favoritos" className={({isActive}) => 
                         isActive ? 'text-orange-500 uppercase font-bold' : 'text-white uppercase font-bold'
                     }>Favoritos</NavLink>
+                    <NavLink to="/generate" className={({isActive}) => 
+                        isActive ? 'text-orange-500 uppercase font-bold' : 'text-white uppercase font-bold'
+                    }>Generar con AI</NavLink>
                 </nav>
             </div>
 

@@ -16,7 +16,7 @@ export default function Layout() {
     <>
         <Header />
 
-        <main className='container mx-auto py-16'> 
+        <main className='container mx-auto py-5'> 
             <Outlet /> {/* Ponemos este componente para que renderice las demas paginas */}
         </main>
 
